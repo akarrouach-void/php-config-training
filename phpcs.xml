@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Project">
+    <description>PHPCS rules for php-config-training</description>
+
+    <!-- Use PSR12 standard -->
+    <rule ref="PSR12"/>
+
+    <!-- Analyze only src/ -->
+    <file>src</file>
+
+    <!-- Exclude vendor -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+</ruleset>
